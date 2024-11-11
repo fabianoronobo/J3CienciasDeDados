@@ -24,6 +24,18 @@ async function quantidadeUsuarios() {
     ]
 
     var layout = {
+
+         legend: {
+            x: 0.7, //posição da legenda em "x"
+            y: 0.5, //posição da legenda em "y"
+            font: {
+              size: 26, // Aumente esse valor para aumentar o tamanho da fonte
+              color: 'white', //troque a cor do texto, mas antes retire "//" no início da linha
+              // family: 'Arial', //troque o tipo de letra,  mas antes retire "//" no início da linha
+              // bold: true //destaque o texto, mas antes retire "//" no início da linha
+            }
+          },
+        
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
